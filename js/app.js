@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $(function() {
-    var API = 'http://localhost:8080/book'
+    var API = 'https://greads-back-end.herokuapp.com/book'
     $.get(API).then(function(data) {
       for (var i = 0; i < data.length; i++) {
         var imgUrl = data[i].bookURL
@@ -37,7 +37,7 @@ $(document).ready(function() {
     });
   })
   $(function() {
-    var API = 'http://localhost:8080/author'
+    var API = 'https://greads-back-end.herokuapp.com/author'
     $.get(API).then(function(data) {
       for (var i = 0; i < data.length; i++) {
         var name = data[i].name
