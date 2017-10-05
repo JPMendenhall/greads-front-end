@@ -1,0 +1,25 @@
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+.maxHeight366 {
+  height: 366px;
+}
+
+.buttonFix {
+  background-color: black !important;
+  color: white !important;
+}
+
+.buttonFix:hover {
+  background-color: white !important;
+  color: black !important;
+}
